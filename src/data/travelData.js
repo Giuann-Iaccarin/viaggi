@@ -341,38 +341,6 @@ export const travelData = {
             name: 'Albania',
             cities: [
                 {
-                    name: 'Saranda',
-                    images: [
-                        'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sarand%C3%AB_%283%29.jpg/800px-Sarand%C3%AB_%283%29.jpg',
-                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/df/saranda.jpg',
-                        'https://www.viaggioinalbania.it/wp-content/uploads/2018/06/saranda-golfo-2.jpg'
-                    ],
-                    description: 'Saranda è la regina della Riviera Albanese, con acque cristalline, un lungomare vivace e una vista spettacolare sulla baia. Porta d\'accessione per il sito UNESCO di Butrinto.',
-                    beaches: [
-                        { name: 'Plazhi i Sarandës', description: 'La spiaggia principale della città, sabbiosa e ben attrezzata' },
-                        { name: 'Ksamili Beach', description: 'Quattro isolette di sabbia accessibili a piedi, acque turchesi' },
-                        { name: 'Krorez Beach', description: 'Spiaggia isolata raggiungibile solo via mare o trekking, natura selvaggia' },
-                        { name: 'Borsh Beach', description: 'Lunga spiaggia di ciottoli circondata da agrumeti e uliveti' }
-                    ],
-                    carRental: {
-                        recommended: true,
-                        reason: 'Utile per visitare Butrinto, le spiagge vicine e la città di Gjirokastër. La riviera albanese offre scorci meravigliosi raggiungibili in auto.'
-                    },
-                    nightlife: {
-                        rating: 'Vivace',
-                        description: 'Lungomare pieno di bar, ristoranti e piccoli locali. Atmosfera giovane e informale, con musica fino a tarda notte.'
-                    },
-                    flights: [
-                        {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
-                        }
-                    ]
-                },
-                {
                     name: 'Valona',
                     images: [
                         'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Panorama_of_Vlora.jpg/800px-Panorama_of_Vlora.jpg',
@@ -396,11 +364,43 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Durazzo',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Durr%C3%ABs_Collage_2019.png/800px-Durr%C3%ABs_Collage_2019.png',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/ff/durres.jpg',
+                        'https://www.shqiparia.com/al/wp-content/uploads/2022/06/Durres_Plazhi.jpg'
+                    ],
+                    description: 'Durazzo è la principale città portuale e balneare dell\'Albania, con una storia antica che risale all\'epoca greca e romana. Offre ampie spiagge sabbiose e un\'animata vita estiva.',
+                    beaches: [
+                        { name: 'Plazhi i Durrësit', description: 'Lungo litorale sabbioso nel cuore della città, molto attrezzato e popolare' },
+                        { name: 'Plazhi i Gjeneralit', description: 'Spiaggia più ampia e meno affollata a sud del centro, ideale per famiglie' },
+                        { name: 'Currilat Beach', description: 'Zona lagunare con acque calme, perfetta per windsurf e kitesurf' },
+                        { name: 'Plazhi i Kallmit', description: 'Baia rocciosa con acque cristalline, ottima per lo snorkeling' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Utile per visitare le rovine romane, l\'anfiteatro e per esplorare la costa nord verso le spiagge più tranquille.'
+                    },
+                    nightlife: {
+                        rating: 'Molto vivace',
+                        description: 'Numerosi bar, ristoranti e club lungo la spiaggia e nel centro città. Atmosfera giovane e internazionale durante l\'estate.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 }
@@ -409,6 +409,38 @@ export const travelData = {
         {
             name: 'Montenegro',
             cities: [
+                {
+                    name: 'Teodo',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tivat_Montenegro.jpg/800px-Tivat_Montenegro.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/80/8d/71/photo0jpg.jpg',
+                        'https://www.visit-montenegro.com/wp-content/uploads/2015/09/Tivat_1.jpg'
+                    ],
+                    description: 'Teodo (Tivat) è la città più moderna del Montenegro, famosa per il lussuoso Porto Montenegro, sede di yacht di lusso, boutique esclusive e un\'atmosfera elegante e cosmopolita.',
+                    beaches: [
+                        { name: 'Plavi Horizonti', description: 'Spiaggia di sabbia fine rara in Montenegro, acque basse e cristalline' },
+                        { name: 'Kalardovo Beach', description: 'Spiaggia ghiaiosa vicino all\'aeroporto, panoramica e ben attrezzata' },
+                        { name: 'Donja Lastva Beach', description: 'Piccola baia tranquilla nella parte vecchia della città' },
+                        { name: 'Opatovo Beach', description: 'Spiaggia organizzata con vista sul Porto Montenegro' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Consigliato per esplorare la baia di Kotor, visitare le isole vicine e raggiungere facilmente Budva e le altre località costiere.'
+                    },
+                    nightlife: {
+                        rating: 'Elegante e sofisticata',
+                        description: 'Porto Montenegro offre bar di lusso, ristoranti raffinati e club esclusivi. Atmosfera chic e internazionale, meno caotica rispetto a Budva.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
                 {
                     name: 'Budva',
                     images: [
@@ -433,11 +465,11 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 },
@@ -465,11 +497,11 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 }
@@ -478,6 +510,38 @@ export const travelData = {
         {
             name: 'Croazia',
             cities: [
+                {
+                    name: 'Spalato',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Split_%2836914280225%29.jpg/800px-Split_%2836914280225%29.jpg',
+                        'https://www.croazia.info/wp-content/uploads/sites/11/split-riva-1.jpg',
+                        'https://www.total-croatia-news.com/media/k2/items/cache/7a90daa8d20e7bd1d10061b8b3657e85_XL.jpg'
+                    ],
+                    description: 'Split è una città vivace dove il Palazzo di Diocleziano, patrimonio UNESCO, si fonde con la vita quotidiana. Porta d\'accesso alle isole della Dalmazia.',
+                    beaches: [
+                        { name: 'Bačvice Beach', description: 'Spiaggia di sabbia famosa per il picigin (gioco tradizionale in acqua)' },
+                        { name: 'Kašjuni Beach', description: 'Spiaggia di ciottoli con pineta, perfetta per snorkeling' },
+                        { name: 'Bene Beach', description: 'Baia rocciosa con acque cristalline, molto frequentata dai locali' },
+                        { name: 'Trstenik Beach', description: 'Spiaggia attrezzata nella parte occidentale della città' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Ottimo per esplorare la regione di Split, visitare Trogir, le cascate di Krka o fare escursioni sulla costa e nell\'entroterra.'
+                    },
+                    nightlife: {
+                        rating: 'Molto vivace',
+                        description: 'La Riva (lungomare) è piena di bar e caffè. Il centro storico pullula di locali, dai pub ai club. Atmosfera giovane e internazionale.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
                 {
                     name: 'Dubrovnik',
                     images: [
@@ -502,43 +566,43 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 },
                 {
-                    name: 'Split',
+                    name: 'Pola',
                     images: [
-                        'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Split_%2836914280225%29.jpg/800px-Split_%2836914280225%29.jpg',
-                        'https://www.croazia.info/wp-content/uploads/sites/11/split-riva-1.jpg',
-                        'https://www.total-croatia-news.com/media/k2/items/cache/7a90daa8d20e7bd1d10061b8b3657e85_XL.jpg'
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Pula_-_Croatia_-_panoramio_%2810%29.jpg/800px-Pula_-_Croatia_-_panoramio_%2810%29.jpg',
+                        'https://www.croazia.info/wp-content/uploads/sites/11/pula-anfiteatro-romano-1.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f4/be/pula.jpg'
                     ],
-                    description: 'Split è una città vivace dove il Palazzo di Diocleziano, patrimonio UNESCO, si fonde con la vita quotidiana. Porta d\'accesso alle isole della Dalmazia.',
+                    description: 'Pola è la principale città dell\'Istria, famosa per il suo magnifico anfiteatro romano perfettamente conservato, il patrimonio storico e le bellissime spiagge rocciose.',
                     beaches: [
-                        { name: 'Bačvice Beach', description: 'Spiaggia di sabbia famosa per il picigin (gioco tradizionale in acqua)' },
-                        { name: 'Kašjuni Beach', description: 'Spiaggia di ciottoli con pineta, perfetta per snorkeling' },
-                        { name: 'Bene Beach', description: 'Baia rocciosa con acque cristalline, molto frequentata dai locali' },
-                        { name: 'Trstenik Beach', description: 'Spiaggia attrezzata nella parte occidentale della città' }
+                        { name: 'Valkane Beach', description: 'Spiaggia ghiaiosa nel centro cittadino, ben attrezzata e con acque calme' },
+                        { name: 'Hawaii Beach', description: 'Baia rocciosa con pini, acque cristalline e fondali interessanti' },
+                        { name: 'Gortanova Uvala', description: 'Spiaggia di sabbia e ghiaia nella zona di Stoja, ideale per famiglie' },
+                        { name: 'Premantura Beach', description: 'Nella punta meridionale dell\'Istria, acque turchesi e natura protetta' }
                     ],
                     carRental: {
                         recommended: true,
-                        reason: 'Ottimo per esplorare la regione di Split, visitare Trogir, le cascate di Krka o fare escursioni sulla costa e nell\'entroterra.'
+                        reason: 'Ideale per esplorare l\'Istria, visitare Rovigno, Parenzo, il Capo Kamenjak e le cittadine dell\'entroterra come Motovun.'
                     },
                     nightlife: {
-                        rating: 'Molto vivace',
-                        description: 'La Riva (lungomare) è piena di bar e caffè. Il centro storico pullula di locali, dai pub ai club. Atmosfera giovane e internazionale.'
+                        rating: 'Buona',
+                        description: 'Numerosi bar e caffè nel centro storico, locali lungo la costa e alcuni club. Atmosfera più tranquilla rispetto alla Dalmazia ma con buone opzioni serali.'
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 },
@@ -566,11 +630,11 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 }
@@ -579,70 +643,6 @@ export const travelData = {
         {
             name: 'Spagna',
             cities: [
-                {
-                    name: 'Ibiza',
-                    images: [
-                        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Eivissa_-_Vista_de_Dalt_Vila.jpg/800px-Eivissa_-_Vista_de_Dalt_Vila.jpg',
-                        'https://www.ibiza-spotlight.com/sites/default/files/styles/facebook/public/2020-07/ibiza%20town.jpg',
-                        'https://cdn.getyourguide.com/img/location/5ffeb2fe6c45a.jpeg/99.jpg'
-                    ],
-                    description: 'Ibiza è l\'isola della festa per eccellenza, con i club più famosi del mondo, ma anche di incredibili spiagge, calette nascoste e un centro storico dichiarato Patrimonio UNESCO.',
-                    beaches: [
-                        { name: 'Playa d\'en Bossa', description: 'La spiaggia più lunga, piena di chiringuitos e vicina ai grandi club' },
-                        { name: 'Cala Salada', description: 'Baia di sabbia e rocce con acque turchesi, tra pini profumati' },
-                        { name: 'Las Salinas', description: 'Spiaggia chic vicino alle saline, atmosfera trendy e internazionale' },
-                        { name: 'Cala Comte', description: 'Famosa per i suoi tramonti mozzafiato e acque cristalline' }
-                    ],
-                    carRental: {
-                        recommended: true,
-                        reason: 'Fondamentale per scoprire le calette più belle e remote del nord e dell\'ovest dell\'isola, lontano dalle zone turistiche più affollate.'
-                    },
-                    nightlife: {
-                        rating: 'Leggendaria',
-                        description: 'Pacha, Amnesia, Ushuaïa, HI Ibiza: i templi della musica elettronica mondiale. Feste diurnne nei beach club e notti indimenticabili nei superclub.'
-                    },
-                    flights: [
-                        {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
-                        }
-                    ]
-                },
-                {
-                    name: 'Maiorca',
-                    images: [
-                        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Palma_Cathedral_Sunset.jpg/800px-Palma_Cathedral_Sunset.jpg',
-                        'https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/baleares/palma-mallorca-catedral-38317199-istock.jpg',
-                        'https://www.visitaremaiorca.it/wp-content/uploads/sites/48/Playa-de-Muro-Mallorca.jpg'
-                    ],
-                    description: 'Maiorca è l\'isola più grande delle Baleari, offre tutto: dalle spiagge da sogno alle montagne del Tramuntana, dalla vivace Palma de Mallorca ai villaggi autentici dell\'interno.',
-                    beaches: [
-                        { name: 'Playa de Muro', description: 'Lunga spiaggia di sabbia fine e acque poco profonde nella baia di Alcúdia' },
-                        { name: 'Cala Millor', description: 'Spiaggia urbana ben attrezzata, ideale per famiglie' },
-                        { name: 'Es Trenc', description: 'Spiaggia selvaggia e naturale, senza edifici, con dune e acque caraibiche' },
-                        { name: 'Cala Deià', description: 'Piccola caletta rocciosa in un villaggio di pescatori pittoresco' }
-                    ],
-                    carRental: {
-                        recommended: true,
-                        reason: 'Assolutamente necessario per apprezzare la diversità dell\'isola: esplorare la Serra de Tramuntana, le calette e i paesini dell\'interno.'
-                    },
-                    nightlife: {
-                        rating: 'Molto varia',
-                        description: 'Palma offre locali eleganti e ristoranti stellati. Magaluf e Arenal sono per feste intense. Cala d\'Or e Port de Pollença hanno un\'atmosfera più familiare.'
-                    },
-                    flights: [
-                        {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
-                        }
-                    ]
-                },
                 {
                     name: 'Barcellona',
                     images: [
@@ -667,11 +667,235 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Ibiza',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Eivissa_-_Vista_de_Dalt_Vila.jpg/800px-Eivissa_-_Vista_de_Dalt_Vila.jpg',
+                        'https://www.ibiza-spotlight.com/sites/default/files/styles/facebook/public/2020-07/ibiza%20town.jpg',
+                        'https://cdn.getyourguide.com/img/location/5ffeb2fe6c45a.jpeg/99.jpg'
+                    ],
+                    description: 'Ibiza è l\'isola della festa per eccellenza, con i club più famosi del mondo, ma anche di incredibili spiagge, calette nascoste e un centro storico dichiarato Patrimonio UNESCO.',
+                    beaches: [
+                        { name: 'Playa d\'en Bossa', description: 'La spiaggia più lunga, piena di chiringuitos e vicina ai grandi club' },
+                        { name: 'Cala Salada', description: 'Baia di sabbia e rocce con acque turchesi, tra pini profumati' },
+                        { name: 'Las Salinas', description: 'Spiaggia chic vicino alle saline, atmosfera trendy e internazionale' },
+                        { name: 'Cala Comte', description: 'Famosa per i suoi tramonti mozzafiato e acque cristalline' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Fondamentale per scoprire le calette più belle e remote del nord e dell\'ovest dell\'isola, lontano dalle zone turistiche più affollate.'
+                    },
+                    nightlife: {
+                        rating: 'Leggendaria',
+                        description: 'Pacha, Amnesia, Ushuaïa, HI Ibiza: i templi della musica elettronica mondiale. Feste diurne nei beach club e notti indimenticabili nei superclub.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Palma de Maiorca',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Palma_Cathedral_Sunset.jpg/800px-Palma_Cathedral_Sunset.jpg',
+                        'https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/baleares/palma-mallorca-catedral-38317199-istock.jpg',
+                        'https://www.visitaremaiorca.it/wp-content/uploads/sites/48/Playa-de-Muro-Mallorca.jpg'
+                    ],
+                    description: 'Palma de Maiorca è la vibrante capitale delle Baleari, dove si fondono storia medievale, architettura gotica, vita moderna e splendide spiagge. Il cuore pulsante dell\'isola.',
+                    beaches: [
+                        { name: 'Playa de Palma', description: 'Lungo litorale sabbioso che si estende per km dalla città, molto attrezzato' },
+                        { name: 'Cala Mayor', description: 'Baia urbana con sabbia fine, vicina al centro e ai principali hotel' },
+                        { name: 'Illetes', description: 'Spiaggia di sabbia bianca e acque turchesi, considerata tra le più belle' },
+                        { name: 'Portixol', description: 'Piccola spiaggia nel quartiere omonimo, atmosfera locale e autentica' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Essenziale per esplorare tutta l\'isola, dalle calette remote alla Serra de Tramuntana. A Palma il parcheggio può essere difficile.'
+                    },
+                    nightlife: {
+                        rating: 'Molto varia',
+                        description: 'Dai locali eleganti del Paseo Marítimo ai club di Playa de Palma, fino ai bar del centro storico. Opzioni per tutti i gusti e le età.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Tenerife',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tenerife_%28NASA%29.jpg/800px-Tenerife_%28NASA%29.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f7/b9/tenerife.jpg',
+                        'https://www.turismodecanarias.com/tenerife-es/imagenes-cabecera/playa-las-teresitas-tenerife.jpg'
+                    ],
+                    description: 'Tenerife, la più grande delle Canarie, offre una straordinaria varietà: dal Teide (vulcano più alto di Spagna) a spiagge di sabbia nera e dorata, foreste lussureggianti e resort cosmopoliti.',
+                    beaches: [
+                        { name: 'Playa de Las Teresitas', description: 'Spiaggia di sabbia dorata importata dal Sahara, vicino a Santa Cruz' },
+                        { name: 'Playa del Duque', description: 'Spiaggia elegante a Costa Adeje, acque calme e servizi di lusso' },
+                        { name: 'Playa de Las Américas', description: 'Cuore del divertimento, spiaggia urbana con vita notturna intensa' },
+                        { name: 'Playa de Los Cristianos', description: 'Baia protetta con sabbia nera, ideale per famiglie' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'INDISPENSABILE per esplorare l\'isola: dal Teide ai villaggi dell\'interno, dalle coste nord e sud. Le distanze sono notevoli.'
+                    },
+                    nightlife: {
+                        rating: 'Molto vivace',
+                        description: 'Playa de Las Américas e Los Cristianos sono famosi per bar, discoteche e locali aperti fino all\'alba. Veronicas Strip è leggendaria per la vita notturna.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'San Sebastian',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/San_Sebastian_2017.jpg/800px-San_Sebastian_2017.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/34/54/f5/san-sebastian.jpg',
+                        'https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/euskadi/san-sebastian-437747838-istock.jpg'
+                    ],
+                    description: 'San Sebastian (Donostia) è una delle città più eleganti d\'Europa, famosa per la baia della Concha (a forma di conchiglia), la cucina d\'alta gamma e il festival del cinema.',
+                    beaches: [
+                        { name: 'Playa de la Concha', description: 'Iconica spiaggia urbana a forma di conchiglia, sabbia fine e acque calme' },
+                        { name: 'Playa de Ondarreta', description: 'Estensione occidentale de La Concha, più tranquilla e familiare' },
+                        { name: 'Playa de Zurriola', description: 'Spiaggia degli surfisti, onde consistenti e ambiente giovane' },
+                        { name: 'Playa de Gros', description: 'Adiacente a Zurriola, frequentata da surfisti e locali' }
+                    ],
+                    carRental: {
+                        recommended: false,
+                        reason: 'Il centro è compatto e ben servito dai trasporti pubblici. Parcheggiare è difficile. Utile solo per escursioni nei Paesi Baschi francesi o a Bilbao.'
+                    },
+                    nightlife: {
+                        rating: 'Raffinata e vivace',
+                        description: 'Pintxos bar nel centro storico, locali eleganti in Zurriola e Gros. Atmosfera sofisticata ma non pretenziosa, con ottima cucina e drink di qualità.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Las Palmas',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Las_Palmas_de_Gran_Canaria_-_Vista_a%C3%A9rea.jpg/800px-Las_Palmas_de_Gran_Canaria_-_Vista_a%C3%A9rea.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/da/las-palmas-de-gran-canaria.jpg',
+                        'https://www.grancanaria.com/turismo/fileadmin/_processed_/2/3/csm_Las_Canteras_Playa_8dcab2184c.jpg'
+                    ],
+                    description: 'Las Palmas de Gran Canaria è una città portuale vivace e cosmopolita, capitale della provincia delle Canarie orientali. Offre storia, cultura e la magnifica spiaggia urbana di Las Canteras.',
+                    beaches: [
+                        { name: 'Playa de Las Canteras', description: 'Una delle migliori spiagge urbane del mondo, protetta da una barriera corallina' },
+                        { name: 'Playa de Las Alcaravaneras', description: 'Spiaggia nel porto, ideale per sport acquatici come vela e canottaggio' },
+                        { name: 'Playa de La Laja', description: 'Spiaggia di sabbia nera a sud della città, popolare tra i surfisti' },
+                        { name: 'Playa de San Cristóbal', description: 'Spiaggia urbana più piccola, vicino al castello omonimo' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Consigliato per esplorare Gran Canaria: le dune di Maspalomas, i villaggi dell\'interno e le coste sud e ovest dell\'isola.'
+                    },
+                    nightlife: {
+                        rating: 'Vivace',
+                        description: 'Triana e Vegueta per bar e ristoranti, La Isleta per l\'atmosfera locale, e Las Canteras per locali sul lungomare. Vita notturna varia e accessibile.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Fuerteventura',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/NASA_Fuerteventura_2002.jpg/800px-NASA_Fuerteventura_2002.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f4/b3/fuerteventura.jpg',
+                        'https://www.fuerteventura.com/images/Corralejo-dunas-playa.jpg'
+                    ],
+                    description: 'Fuerteventura è l\'isola più vicina all\'Africa, famosa per le lunghe spiagge di sabbia bianca, le dune desertiche, le condizioni ideali per windsurf e kitesurf e un\'atmosfera rilassata.',
+                    beaches: [
+                        { name: 'Playa de Sotavento', description: '25 km di spiaggia nella costa sud, paradiso del windsurf e kitesurf' },
+                        { name: 'Playa de Cofete', description: 'Spiaggia selvaggia e remota sotto maestose montagne, natura incontaminata' },
+                        { name: 'Playa de Corralejo', description: 'Ampie spiagge di sabbia bianca accanto al parco naturale delle dune' },
+                        { name: 'Playa de Esmeralda', description: 'Baia protetta con acque turchesi, perfetta per famiglie' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'ESSENZIALE. L\'isola è estesa e i trasporti pubblici limitati. Senza auto è impossibile raggiungere le spiagge più belle e remote.'
+                    },
+                    nightlife: {
+                        rating: 'Moderata',
+                        description: 'Corralejo offre la vita notturna più attiva con bar e qualche club. Caleta de Fuste e Morro Jable hanno opzioni più tranquille e familiari.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Valencia',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Collage_Valencia.jpg/800px-Collage_Valencia.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/d4/valencia.jpg',
+                        'https://www.visitvalencia.com/sites/default/files/styles/4_3_small/public/2021-06/Playa%20Malvarrosa_0.jpg'
+                    ],
+                    description: 'Valencia è una città moderna e vivace, famosa per la Ciudad de las Artes y las Ciencias, la paella e le ampie spiagge urbane. Un perfetto mix di tradizione e innovazione.',
+                    beaches: [
+                        { name: 'Playa de la Malvarrosa', description: 'Spiaggia urbana per eccellenza, lunga e ampia, piena di chiringuitos' },
+                        { name: 'Playa de las Arenas', description: 'Adiacente a Malvarrosa, più tranquilla ed elegante' },
+                        { name: 'Playa del Cabanyal', description: 'Spiaggia nel quartiere dei pescatori, atmosfera autentica e locale' },
+                        { name: 'Playa de la Garrofera', description: 'Nella zona naturale della Devesa, più selvaggia e naturale' }
+                    ],
+                    carRental: {
+                        recommended: false,
+                        reason: 'Il centro storico è pedonale e ben servito da metropolitana e bus. L\'auto è utile solo per escursioni nell\'Albufera o verso i pueblos vicini.'
+                    },
+                    nightlife: {
+                        rating: 'Molto buona',
+                        description: 'Bar e locali nel Carmen, Ruzafa e lungo la spiaggia di Malvarrosa. Ampia scelta tra discoteche, cocktail bar e locali di musica dal vivo.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 },
@@ -699,11 +923,107 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Alicante',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Alicante_%28Alicante%29_01.jpg/800px-Alicante_%28Alicante%29_01.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/90/alicante.jpg',
+                        'https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/comunidad-valenciana/alicante-playa-del-postiguet-513683913-istock.jpg'
+                    ],
+                    description: 'Alicante è la porta d\'ingresso alla Costa Blanca, con un castello che domina la città, un lungomare vivace (Explanada de España) e spiagge dorate. Atmosfera allegra e mediterranea.',
+                    beaches: [
+                        { name: 'Playa del Postiguet', description: 'Spiaggia urbana ai piedi del castello di Santa Bárbara, comoda e ben attrezzata' },
+                        { name: 'Playa de San Juan', description: '7 km di sabbia fine e dorata, una delle migliori spiagge urbane d\'Europa' },
+                        { name: 'Playa de la Albufereta', description: 'Baia riparata, acque tranquille, ideale per famiglie e snorkeling' },
+                        { name: 'Playa de los Saladares', description: 'Spiaggia più tranquilla nella zona residenziale urbana' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Ottimo per esplorare la Costa Blanca: Benidorm, Villajoyosa, Calpe, Guadalest e le spiagge più isolate.'
+                    },
+                    nightlife: {
+                        rating: 'Vivace',
+                        description: 'Bar e ristoranti nel centro storico e lungo l\'Explanada. Locali notturni nel Puerto e nella zona di San Juan. Benidorm vicina offre vita notturna intensissima.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Lanzarote',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lanzarote_NASA.jpg/800px-Lanzarote_NASA.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/cd/lanzarote.jpg',
+                        'https://www.lanzarote.com/imagenes/playa-papagayo-lanzarote.jpg'
+                    ],
+                    description: 'Lanzarote è un\'isola vulcanica dall\'aspetto lunare, plasmata dall\'artista César Manrique. Spiagge uniche, paesaggi surreali e un\'architettura integrata nella natura.',
+                    beaches: [
+                        { name: 'Playa de Papagayo', description: 'Serie di calette di sabbia dorata e acque turchesi nel sud dell\'isola' },
+                        { name: 'Playa Blanca', description: 'Spiaggia principale della località omonima, sabbia bianca e servizi' },
+                        { name: 'Playa de Famara', description: 'Enorme spiaggia ventosa nella costa nord, paradiso dei surfisti' },
+                        { name: 'Playa de los Pocillos', description: 'Ampia spiaggia di sabbia scura a Puerto del Carmen, ben attrezzata' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'ASSOLUTAMENTE NECESSARIO. L\'isola va esplorata in auto per visitare i parchi vulcanici, le grotte, i villaggi e le spiagge spesso isolate.'
+                    },
+                    nightlife: {
+                        rating: 'Discreta',
+                        description: 'Puerto del Carmen è il centro della vita notturna con bar, ristoranti e alcuni club. Playa Blanca e Costa Teguise offrono opzioni più tranquille.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Vigo',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Vigo_-_Vista_a%C3%A9rea.jpg/800px-Vigo_-_Vista_a%C3%A9rea.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/e3/vigo.jpg',
+                        'https://www.turismo.gal/img/Inf/Recursos/Recursos/13091_F_1_1.jpg'
+                    ],
+                    description: 'Vigo è la città più grande della Galizia, importante porto peschereccio e commerciale. Circondata da colline verdi e affacciata su una splendida ría, offre una cucina di mare eccezionale.',
+                    beaches: [
+                        { name: 'Playa de Samil', description: 'La spiaggia urbana più grande e attrezzata, con piscine all\'aperto' },
+                        { name: 'Playa de Canido', description: 'Spiaggia più piccola e familiare, vicino al centro' },
+                        { name: 'Playa de la Fontaíña', description: 'Spiaggia riparata dalle onde, ideale per bambini' },
+                        { name: 'Playa de O Vao', description: 'Spiaggia di sabbia fine nella parte sud della città' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Consigliato per esplorare la Ría de Vigo, visitare le Isole Cíes (paradiso naturale), Baiona, Pontevedra e la costa della morte galiziana.'
+                    },
+                    nightlife: {
+                        rating: 'Buona',
+                        description: 'Vita notturna concentrata nel Casco Vello (centro storico) con numerosi bar e locali di tapas. Zone come Samil e la zona del porto offrono altre opzioni.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 }
@@ -736,11 +1056,11 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 },
@@ -768,11 +1088,43 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Montpellier',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Montpellier_panorama.jpg/800px-Montpellier_panorama.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/f8/montpellier.jpg',
+                        'https://www.montpellier-france.com/wp-content/uploads/2023/02/carnon-plage-montpellier-1.jpg'
+                    ],
+                    description: 'Montpellier è una città giovane e dinamica della Linguadoca, con un centro storico medievale, architettura contemporanea, e a pochi km dal mare e dalle spiagge della Costa d\'Ambra.',
+                    beaches: [
+                        { name: 'Plage de Carnon', description: 'Lunga spiaggia sabbiosa collegata a Montpellier dal tram, molto frequentata' },
+                        { name: 'Plage de Palavas-les-Flots', description: 'Spiaggia della località balneare vicina, piena di servizi e attività' },
+                        { name: 'Plage de l\'Espiguette', description: 'Enorme spiaggia selvaggia e naturale con dune, a Grau-du-Roi' },
+                        { name: 'Plage de la Grande-Motte', description: 'Spiaggia caratteristica della città dalle architetture piramidali' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Utile per raggiungere comodamente le varie spiagge della costa, visitare la Camargue, Aigues-Mortes e i villaggi dell\'entroterra come Saint-Guilhem-le-Désert.'
+                    },
+                    nightlife: {
+                        rating: 'Molto vivace',
+                        description: 'La città universitaria pullula di bar e locali, specialmente nelle piazze del centro storico (Place de la Comédie, Écusson). Atmosfera giovane e cosmopolita.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 }
@@ -793,7 +1145,7 @@ export const travelData = {
                         { name: 'Praia de Matosinhos', description: 'Lunga spiaggia sabbiosa vicino alla città, famosa per il surf e il pesce fresco' },
                         { name: 'Praia do Molhe', description: 'All\'estremità del porto di Leça, protetta da frangiflutti, acque calme' },
                         { name: 'Praia da Luz', description: 'Spiaggia cittadina a nord del centro, con scogliere e area verde' },
-                        { name: 'Praia de Miramar', description: 'Bellissima spiaggia con la cappella di Senhor da Pedra sullo scoglio' }
+                        { name: 'Praia de Miramar', description: 'Bellissima spiaggia con la cappela di Senhor da Pedra sullo scoglio' }
                     ],
                     carRental: {
                         recommended: true,
@@ -805,11 +1157,11 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 },
@@ -837,43 +1189,11 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
-                        }
-                    ]
-                },
-                {
-                    name: 'Algarve',
-                    images: [
-                        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Praia_da_Marinha_%282009%29.jpg/800px-Praia_da_Marinha_%282009%29.jpg',
-                        'https://www.visitalgarve.pt/sites/default/files/styles/principal/public/2023-02/2.%20Arma%C3%A7%C3%A3o%20de%20P%C3%AAra_Amândio_Figueiredo-139.jpg',
-                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/34/54/f3/portimao.jpg'
-                    ],
-                    description: 'L\'Algarve è la regione più soleggiata del Portogallo, famosa per le sue scogliere dorate, le grotte marine, le spiagge immense e i campi da golf di livello mondiale.',
-                    beaches: [
-                        { name: 'Praia da Marinha', description: 'Iconica spiaggia con archi e faraglioni, spesso considerata una delle più belle d\'Europa' },
-                        { name: 'Praia de Benagil', description: 'Famosa per la grotta con il foro in alto (Benagil Cave), accessibile solo via mare' },
-                        { name: 'Praia da Falésia', description: 'Km di sabbia dorata sotto imponenti scogliere di arenaria rossa e bianca' },
-                        { name: 'Ilha de Tavira', description: 'Isola-barriera raggiungibile con un breve traghetto, spiagge selvagge e natura' }
-                    ],
-                    carRental: {
-                        recommended: true,
-                        reason: 'INDISPENSABILE. L\'Algarve è una regione estesa. Senza auto è difficile spostarsi tra le diverse località (Lagos, Albufeira, Faro, Tavira) e raggiungere le calette più belle.'
-                    },
-                    nightlife: {
-                        rating: 'Molto vivace (in alcune zone)',
-                        description: 'Albufeira (The Strip) è il centro della festa per i giovani. Vilamoura offre casino e locali più chic. Lagos ha un\'atmosfera più alternativa. Molte opzioni lungo tutta la costa.'
-                    },
-                    flights: [
-                        {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 }
@@ -906,11 +1226,341 @@ export const travelData = {
                     },
                     flights: [
                         {
-                            departureDate: null,
-                            departureTime: null,
-                            returnDate: null,
-                            returnTime: null,
-                            price: null
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: 'Sicilia',
+            cities: [
+                {
+                    name: 'Catania',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Catania_fontana_elefante_duomo.jpg/800px-Catania_fontana_elefante_duomo.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f4/a7/catania.jpg',
+                        'https://www.sicilia.info/wp-content/uploads/sites/91/catania-piazza-duomo.jpg'
+                    ],
+                    description: 'Catania, ai piedi dell\'Etna, è una città barocca Patrimonio UNESCO. Vibrante, vulcanica e autentica, con mercati colorati, architettura in pietra lavica e il mare a pochi passi.',
+                    beaches: [
+                        { name: 'Playa di Catania', description: 'Lunga spiaggia di sabbia scura vulcanica nel centro della città' },
+                        { name: 'La Playa', description: 'Spiaggia libera attrezzata, molto frequentata dai catanesi' },
+                        { name: 'Aci Castello', description: 'Spiagge rocciose ai piedi del castello normanno, acque cristalline' },
+                        { name: 'San Giovanni Li Cuti', description: 'Caratteristica spiaggia di ciottoli neri vulcanici, atmosfera unica' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Essenziale per visitare l\'Etna, le cittadine barocche del Val di Noto (Siracusa, Noto, Ragusa) e le spiagge della costa orientale.'
+                    },
+                    nightlife: {
+                        rating: 'Molto vivace',
+                        description: 'Vita notturna nei locali del centro storico, lungo la via Etnea e nella movida universitaria. Piazza Bellini e Via della Lettera sono i cuori pulsanti.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Siracusa',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Ortigia_-_panoramio_%2823%29.jpg/800px-Ortigia_-_panoramio_%2823%29.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/34/54/f7/syracuse.jpg',
+                        'https://www.sicilia.info/wp-content/uploads/sites/91/siracusa-fontana-aretusa.jpg'
+                    ],
+                    description: 'Siracusa, antica potenza del Mediterraneo, unisce storia greca e barocco in un contesto unico. Ortigia, l\'isola-città, è un gioiello tra il mare e i vicoli suggestivi.',
+                    beaches: [
+                        { name: 'Fontane Bianche', description: 'Spiaggia di sabbia bianchissima e fine, acque basse e trasparenti' },
+                        { name: 'Cala Mosche', description: 'Spiaggia incontaminata nella riserva naturale, raggiungibile a piedi' },
+                        { name: 'Ognina', description: 'Piccola baia rocciosa e spiaggetta, molto pittoresca' },
+                        { name: 'Plemmirio', description: 'Area marina protetta con calette rocciose e fondali eccezionali' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Utile per esplorare il parco archeologico della Neapolis, le riserve naturali vicine e le spiagge della costa siracusana e del Val di Noto.'
+                    },
+                    nightlife: {
+                        rating: 'Buona',
+                        description: 'Atmosfera elegante nei bar e ristoranti di Ortigia, specialmente intorno alla Fonte Aretusa e al lungomare. Locali con musica dal vivo.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Marsala',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Marsala_-_panoramio_%284%29.jpg/800px-Marsala_-_panoramio_%284%29.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/38/8c/b8/marsala.jpg',
+                        'https://www.sicilia.info/wp-content/uploads/sites/91/marsala-saline.jpg'
+                    ],
+                    description: 'Marsala, città del vino omonimo, si affaccia sulle saline e sulle isole Egadi. Centro storico ricco di storia punica e normanna, porta per le spiagge dello Stagnone.',
+                    beaches: [
+                        { name: 'Spiaggia di Marsala', description: 'Litorale sabbioso cittadino, attrezzato e di facile accesso' },
+                        { name: 'Lido Signorino', description: 'Spiaggia di sabbia fine nella riserva naturale dello Stagnone' },
+                        { name: 'San Teodoro', description: 'Cala con sabbia bianca e acque turchesi, vicino alle saline' },
+                        { name: 'Ettore Infersa', description: 'Spiaggia con vista panoramica sulle saline e i mulini a vento' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Necessario per visitare le saline, le cantine del Marsala, la riserva dello Stagnone e per raggiungere il porto per le isole Egadi.'
+                    },
+                    nightlife: {
+                        rating: 'Moderata',
+                        description: 'Vita notturna tranquilla, concentrata nei locali del centro storico e lungo il lungomare. Atmosfera rilassata e autentica.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Palermo',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Palermo_City_view.jpg/800px-Palermo_City_view.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/34/54/ee/palermo.jpg',
+                        'https://www.sicilia.info/wp-content/uploads/sites/91/palermo-teatro-massimo.jpg'
+                    ],
+                    description: 'Palermo, capitale della Sicilia, è un crogiolo di culture: araba, normanna, barocca. Mercati vibranti, chiese sontuose, palazzi decadenti e un mare splendido a Mondello.',
+                    beaches: [
+                        { name: 'Mondello', description: 'Iconica spiaggia di sabbia bianca tra il Monte Pellegrino e Capo Gallo' },
+                        { name: 'Addaura', description: 'Spiagge rocciose e piccole calette sotto le scogliere, molto suggestive' },
+                        { name: 'Sferracavallo', description: 'Borgo di pescatori con spiaggette e acque cristalline' },
+                        { name: 'Isola delle Femmine', description: 'Spiaggia sabbiosa con vista sull\'isola omonima, molto popolare' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Indispensabile per visitare Monreale, Cefalù, le riserve naturali di Capo Gallo e Monte Pellegrino, e le spiagge della costa nord-occidentale.'
+                    },
+                    nightlife: {
+                        rating: 'Molto vivace',
+                        description: 'Movida nei quartieri storici (Kalsa, Vucciria), locali alla moda nel Politeama, bar sul lungomare. Mercati notturni e street food serale.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Messina',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Messina_duomo.jpg/800px-Messina_duomo.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/fb/messina.jpg',
+                        'https://www.sicilia.info/wp-content/uploads/sites/91/messina-piazza-duomo.jpg'
+                    ],
+                    description: 'Messina, porta della Sicilia sullo Stretto, offre viste spettacolari sulla Calabria. Ricostruita dopo il terremoto del 1908, conserva monumenti storici e un fascino particolare.',
+                    beaches: [
+                        { name: 'Spiaggia di Mortelle', description: 'Litorale sabbioso a nord della città, ben attrezzato e frequentato' },
+                        { name: 'Spiaggia di Paradiso', description: 'Piccola baia rocciosa con acque cristalline, vista sullo Stretto' },
+                        { name: 'Capo Peloro', description: 'Punta estrema della Sicilia, spiagge sabbiose nella riserva naturale' },
+                        { name: 'Ganzirri', description: 'Zona di laghi costieri con spiaggette e ristoranti di pesce' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Utile per esplorare i monti Peloritani, le località della costa tirrenica (Milazzo per le Eolie) e ionica, e per raggiungere i villaggi dei Nebrodi.'
+                    },
+                    nightlife: {
+                        rating: 'Discreta',
+                        description: 'Locali principalmente nel centro storico e nella zona del porto. Vita notturna più intensa nei mesi estivi lungo la costa nord.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Cefalù',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Cefal%C3%B9_%289%29.jpg/800px-Cefal%C3%B9_%289%29.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f4/a2/cefalu.jpg',
+                        'https://www.sicilia.info/wp-content/uploads/sites/91/cefalu-duomo.jpg'
+                    ],
+                    description: 'Cefalù, tra il mare e la Rocca, è uno dei borghi più belli d\'Italia. Il duomo normanno Patrimonio UNESCO, vicoli medievali e una splendida spiaggia la rendono una meta imperdibile.',
+                    beaches: [
+                        { name: 'Spiaggia di Cefalù', description: 'Ampia spiaggia di sabbia dorata ai piedi del centro storico' },
+                        { name: 'Mazzaforno', description: 'Spiaggia più tranquilla a ovest del centro, mix di sabbia e rocce' },
+                        { name: 'Settefrati', description: 'Piccole calette rocciose raggiungibili a piedi dalla spiaggia principale' },
+                        { name: 'Salinelle', description: 'Spiaggia libera più ampia, ideale per lunghe passeggiate' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Per visitare la Rocca di Cefalù, esplorare il Parco delle Madonie e raggiungere le spiagge più isolate della costa.'
+                    },
+                    nightlife: {
+                        rating: 'Moderata',
+                        description: 'Atmosfera romantica e rilassata. Bar e ristoranti con vista mare nel centro storico, musica dal vivo in alcuni locali.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: 'Sardegna',
+            cities: [
+                {
+                    name: 'Cagliari',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cagliari_-_Castello_-_panoramio.jpg/800px-Cagliari_-_Castello_-_panoramio.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f4/9d/cagliari.jpg',
+                        'https://www.sardegnaturismo.it/sites/default/files/2021-06/Poetto_Cagliari_GettyImages-1155124150.jpg'
+                    ],
+                    description: 'Cagliari, capitale della Sardegna, è una città di luce e storia. Il quartiere del Castello domina la città, mentre il Poetto è una delle spiagge urbane più belle del Mediterraneo.',
+                    beaches: [
+                        { name: 'Poetto', description: '8 km di spiaggia di sabbia bianca e fine, vera icona di Cagliari' },
+                        { name: 'Cala Fighera', description: 'Piccola caletta rocciosa sotto Sella del Diavolo, acque cristalline' },
+                        { name: 'Spiaggia del Giorgino', description: 'Spiaggia nel golfo degli Angeli, meno affollata del Poetto' },
+                        { name: 'Mari Pintau', description: 'Spiaggia con sabbia finissima e colori straordinari, a 30 minuti dalla città' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Necessario per esplorare la costa sud (Villasimius, Chia), le saline di Molentargius, il sito archeologico di Nora e l\'entroterra.'
+                    },
+                    nightlife: {
+                        rating: 'Vivace',
+                        description: 'Movida nel Marina, Castello e Stampace. Locali alla moda nel porto, bar storici e discoteche nella zona del Poetto nei mesi estivi.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Alghero',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Alghero_-_Veduta_della_citt%C3%A0_dalla_Torre_della_Polvere.JPG/800px-Alghero_-_Veduta_della_citt%C3%A0_dalla_Torre_della_Polvere.JPG',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/93/alghero.jpg',
+                        'https://www.sardegnaturismo.it/sites/default/files/2021-06/Alghero_Bastioni_GettyImages-1044137966.jpg'
+                    ],
+                    description: 'Alghero, la "Barceloneta" sarda, è una città catalana affacciata sul mare. Bastioni medievali, centro storico suggestivo e la splendida costa di corallo con calette da sogno.',
+                    beaches: [
+                        { name: 'Lido di Alghero', description: 'Spiaggia cittadina di sabbia fine, comoda e ben attrezzata' },
+                        { name: 'Maria Pia', description: 'Spiaggia tra le dune e la pineta, acque turchesi e sabbia bianca' },
+                        { name: 'Le Bombarde', description: 'Una delle spiagge più famose, sabbia finissima e mare cristallino' },
+                        { name: 'Lazzaretto', description: 'Cala rocciosa con piccola spiaggetta, perfetta per lo snorkeling' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Indispensabile per visitare le grotte di Nettuno, Capo Caccia, le spiagge della Nurra (Porto Ferro, Porto Palmas) e l\'entroterra con i nuraghi.'
+                    },
+                    nightlife: {
+                        rating: 'Buona',
+                        description: 'Atmosfera vivace sui bastioni e nel centro storico catalano. Locali con vista mare, wine bar e musica dal vivo. In estate animazione sulle spiagge.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Porto Cervo',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Porto_Cervo_panorama.jpg/800px-Porto_Cervo_panorama.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/34/54/ec/porto-cervo.jpg',
+                        'https://www.sardegnaturismo.it/sites/default/files/2021-06/PortoCervo_GettyImages-1213254980.jpg'
+                    ],
+                    description: 'Porto Cervo è il cuore della Costa Smeralda, sinonimo di lusso, yacht e glamour. Architettura raffinata, acque smeraldine e un\'atmosfera esclusiva tutto l\'anno.',
+                    beaches: [
+                        { name: 'Spiaggia del Principe', description: 'Una delle spiagge più belle del mondo, sabbia bianca e acque smeraldine' },
+                        { name: 'Liscia Ruja', description: 'Ampia spiaggia di sabbia fine, molto attrezzata e popolare' },
+                        { name: 'Capriccioli', description: 'Due incantevoli calette tra i graniti rosa, acque cristalline' },
+                        { name: 'Romazzino', description: 'Spiaggia elegante con sabbia finissima, acque color smeraldo' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Essenziale per esplorare la Costa Smeralda, raggiungere le calette più esclusive e visitare l\'interno della Gallura.'
+                    },
+                    nightlife: {
+                        rating: 'Esclusiva',
+                        description: 'Locali di lusso, cocktail bar esclusivi, discoteche famose in tutto il mondo (Billionaire, Phi Beach). Atmosfera chic e internazionale, soprattutto in estate.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
+                        }
+                    ]
+                },
+                {
+                    name: 'Olbia',
+                    images: [
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Olbia_-_Basilica_di_San_Simplicio.jpg/800px-Olbia_-_Basilica_di_San_Simplicio.jpg',
+                        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/34/54/e5/olbia.jpg',
+                        'https://www.sardegnaturismo.it/sites/default/files/2021-06/Olbia_Porto_GettyImages-961324828.jpg'
+                    ],
+                    description: 'Olbia è la porta d\'ingresso della Costa Smeralda e della Gallura. Città dinamica con un porto importante, un centro storico vivace e splendide spiagge a pochi minuti.',
+                    beaches: [
+                        { name: 'Pittulongu', description: 'Serie di spiagge di sabbia fine e bianca, acque basse e cristalline' },
+                        { name: 'Pellicano', description: 'Spiaggia attrezzata con sabbia dorata, ideale per famiglie' },
+                        { name: 'Le Saline', description: 'Spiaggia lunga e ampia, vicina alla città, molto frequentata' },
+                        { name: 'Bados', description: 'Spiaggia più tranquilla, perfetta per relax e sport acquatici' }
+                    ],
+                    carRental: {
+                        recommended: true,
+                        reason: 'Fondamentale per raggiungere le spiagge della Costa Smeralda, visitare l\'arcipelago della Maddalena e esplorare l\'interno della Gallura.'
+                    },
+                    nightlife: {
+                        rating: 'Vivace',
+                        description: 'Vita notturna concentrata nel centro storico, nel porto vecchio e nei locali lungo la costa. In estate molta animazione nei paesi vicini della Costa Smeralda.'
+                    },
+                    flights: [
+                        {
+                            departureDate: '5 agosto',
+                            departureTime: '06:05-08:30',
+                            returnDate: '12 agosto',
+                            returnTime: '09:10-09:35',
+                            price: 152
                         }
                     ]
                 }
